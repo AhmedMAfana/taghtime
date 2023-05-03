@@ -23,21 +23,32 @@ Copy the example env file and make the required configuration changes in the .en
 
     cp .env.example .env
 
-Generate a new application key
 
-    sail artisan key:generate
+Start the local development server relying on [Docker](#docker).
 
-
-Run the database migrations (**Set the database connection in .env before migrating**)
-
-    php artisan migrate
-
-Start the local development server
-
-    php artisan serve
-
+    sail up
+ 
 You can now access the server at http://localhost:8000
 
+
+Access Docker bash for package
+
+    docker exec -it tagh-time-php-fpm-1 bash
+    
+Switch to the repo folder
+
+     cd laravel/current/
+
+
+Generate a new application key
+
+    php artisan key:generate
+
+
+Run the database migrations
+
+    artisan migrate:fresh --path=/database/migrations/company
+ 
 **TL;DR command list**
 
     git clone git@github.com:gothinkster/laravel-realworld-example-app.git
