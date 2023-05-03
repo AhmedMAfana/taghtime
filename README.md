@@ -1,7 +1,7 @@
 # ![Tagh Time App](logo.png)
 
 
-# Getting started
+# Getting started with Back-end
 
 ## Installation
 
