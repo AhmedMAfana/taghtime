@@ -13,6 +13,11 @@ Switch to the repo folder
 
     cd Tagh-Time
 
+
+Switch to the master branch
+
+    git checkout master
+    
 Install all the dependencies using composer
 
     composer install --no-scripts --ignore-platform-reqs
