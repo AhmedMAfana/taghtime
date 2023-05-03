@@ -21,7 +21,6 @@ Install all the dependencies using composer
 ## configure .env file
 Copy the example env file and make the required configuration changes in the .env file
 
-in **GENERAL CONFIGURATION** we need to set APP_URL to backend url in localhost will be 
 
     cp .env.example .env
 
