@@ -56,6 +56,6 @@ Run the database migrations
  
      php artisan db:seed --class=Database\\Seeders\\Company\\PlanSeeder
 
- 
+  
 
 You can now access the server at http://localhost
