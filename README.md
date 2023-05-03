@@ -33,8 +33,6 @@ Start the local development server relying on [Docker](#docker).
 
     sail up
  
-You can now access the server at http://0.0.0.0
-
 
 Access Docker bash for package
 
@@ -59,3 +57,5 @@ Run the database migrations
      php artisan db:seed --class=Database\\Seeders\\Company\\PlanSeeder
 
  
+
+You can now access the server at http://localhost
