@@ -52,8 +52,8 @@ Generate a new application key
 
 Run the database migrations
 
-   php artisan migrate:fresh --path=/database/migrations/company
- 
+     php artisan migrate:fresh --path=/database/migrations/company
+
  Run the database seeders
  
      php artisan db:seed --class=Database\\Seeders\\Company\\PlanSeeder
