@@ -59,3 +59,5 @@ Run the database migrations
   
 
 You can now access the server at http://localhost
+
+## configuration queue work by supervisor
