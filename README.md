@@ -17,6 +17,8 @@ Install all the dependencies using composer
 
     composer i --ignore-platform-reqs
 
+
+## configure .env file
 Copy the example env file and make the required configuration changes in the .env file
 
     cp .env.example .env
